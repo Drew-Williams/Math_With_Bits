@@ -2,7 +2,6 @@ package my.mathwithbits;
 
 import java.util.Arrays;
 
-
 public class BitMath {
     String bits1;
     String bits2;
@@ -15,7 +14,6 @@ public class BitMath {
     String bit2String;
     int[] sumArray = new int[8];
     boolean subtract = false;
-    
     
 //    public BitMath(String bits1, String bits2){
     public BitMath(String bits1, String bits2, Boolean subtract){
@@ -115,7 +113,6 @@ public class BitMath {
             }
         }
         //System.out.println("######Flipped+Add One : " + Arrays.toString(intArrayLocal));
-        
         return intArrayLocal;
     }
 }
